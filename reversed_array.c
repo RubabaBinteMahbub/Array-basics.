@@ -9,7 +9,7 @@ scanf("%d",&array[i]);
   
 printf("Reversed array = ");
 for(i=0;i<5;i++){
-rev_array[i]=a[4-i];
+rev_array[i]=array[4-i];
 printf("%d",rev_array[i]);
 }
 return 0;
